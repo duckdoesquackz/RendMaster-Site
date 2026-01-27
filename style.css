@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url("last.gif.gif") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Dark overlay for readability */
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px 60px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Oups';
+  src: url('fonts/Oups.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.welcome {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-family: 'Oups', cursive; /* use your new font here */
+}
+
+.welcome:hover {
+  transform: scale(1.1);
+  color: #fd0101;
+}
+
+/* Social icons */
+.socials a {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
+.socials a.youtube:hover {
+  color: #ff0000;
+}
+
+.socials a.facebook:hover {
+  color: #1877f2;
+}
+
+.socials a.tiktok:hover {
+  color: #f808d0;
+}
+
+.socials a.twitter:hover {
+  color: #00f7e2;
+}
+
+.socials a {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-5px) scale(1.2);
+  text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+}
+
+/* Individual colors on hover */
+.socials a.youtube:hover { color: #ff0000; }
+.socials a.facebook:hover { color: #1877f2; }
+.socials a.tiktok:hover { color: #f808d0; }
+.socials a.twitter:hover { color: #00f7e2; }
